@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+# Author ID: jmay10
+
+year = input("What year were you born? ")
+age = 2022 - int(year)
+print("You are " + str(age) +" years old this year")
