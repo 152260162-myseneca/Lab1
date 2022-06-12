@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # Author ID: jmay10
 
-year = input("What year were you born? ")
-age = 2022 - int(year)
-print("You are " + str(age) +" years old this year")
+#This function finds out how old they are turning this year.
+def age(number1, number2):
+    return number1 - int(number2)
+
+if __name__ == '__main__':
+    print("You are " + str(age(2022, input("what year were you born? "))) + " years old this year")
