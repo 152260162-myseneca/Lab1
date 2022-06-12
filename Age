@@ -5,5 +5,10 @@
 def age(number1, number2):
     return number1 - int(number2)
 
+def helloWorld():
+	print("Hello World")
+
+
 if __name__ == '__main__':
     print("You are " + str(age(2022, input("what year were you born? "))) + " years old this year")
+    helloWorld()
