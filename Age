@@ -3,7 +3,10 @@
 
 #This function finds out how old they are turning this year.
 def age(number1, number2):
-    return number1 - int(number2)
+    try:
+        return number1 - int(number2)
+    except TypeError:
+        return('Please enter an int')
 
 def helloWorld():
 	print("Hello World")
